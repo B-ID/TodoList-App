@@ -63,7 +63,7 @@ export default function SingleTodo({ todo, todos, setTodos }: Props) {
   } `;
   return (
     <>
-    <p>{Date.now()}</p>
+    {/* <p>{Date.now()}</p> */}
     <form 
     onSubmit={(e) => handleEditSubmit(e, todo.id)}
     className={dynamicClassName}>
